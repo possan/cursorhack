@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9515E9491BC1651100F63AA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9515E9481BC1651100F63AA6 /* AppDelegate.m */; };
+		9515E94C1BC1651100F63AA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9515E94B1BC1651100F63AA6 /* main.m */; };
+		9515E94E1BC1651100F63AA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9515E94D1BC1651100F63AA6 /* Assets.xcassets */; };
+		9515E9511BC1651100F63AA6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9515E94F1BC1651100F63AA6 /* MainMenu.xib */; };
+		9515E9591BC1730200F63AA6 /* UKSoundFileRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9515E9581BC1730200F63AA6 /* UKSoundFileRecorder.m */; settings = {ASSET_TAGS = (); }; };
+		9515E95D1BC1734F00F63AA6 /* UKAudioStreamBasicDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 9515E95C1BC1734F00F63AA6 /* UKAudioStreamBasicDescription.m */; settings = {ASSET_TAGS = (); }; };
+		9515E9601BC1739200F63AA6 /* NSString+CarbonUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 9515E95F1BC1739200F63AA6 /* NSString+CarbonUtilities.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9515E9441BC1651100F63AA6 /* cursorhack2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cursorhack2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9515E9471BC1651100F63AA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9515E9481BC1651100F63AA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9515E94B1BC1651100F63AA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9515E94D1BC1651100F63AA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9515E9501BC1651100F63AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9515E9521BC1651100F63AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9515E9581BC1730200F63AA6 /* UKSoundFileRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKSoundFileRecorder.m; sourceTree = "<group>"; };
+		9515E95A1BC1730E00F63AA6 /* UKSoundFileRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UKSoundFileRecorder.h; sourceTree = "<group>"; };
+		9515E95B1BC1734F00F63AA6 /* UKAudioStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKAudioStreamBasicDescription.h; sourceTree = "<group>"; };
+		9515E95C1BC1734F00F63AA6 /* UKAudioStreamBasicDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKAudioStreamBasicDescription.m; sourceTree = "<group>"; };
+		9515E95E1BC1739200F63AA6 /* NSString+CarbonUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CarbonUtilities.h"; sourceTree = "<group>"; };
+		9515E95F1BC1739200F63AA6 /* NSString+CarbonUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CarbonUtilities.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9515E9411BC1651100F63AA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9515E93B1BC1651100F63AA6 = {
+			isa = PBXGroup;
+			children = (
+				9515E9461BC1651100F63AA6 /* cursorhack2 */,
+				9515E9451BC1651100F63AA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9515E9451BC1651100F63AA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9515E9441BC1651100F63AA6 /* cursorhack2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9515E9461BC1651100F63AA6 /* cursorhack2 */ = {
+			isa = PBXGroup;
+			children = (
+				9515E9471BC1651100F63AA6 /* AppDelegate.h */,
+				9515E9481BC1651100F63AA6 /* AppDelegate.m */,
+				9515E94D1BC1651100F63AA6 /* Assets.xcassets */,
+				9515E94F1BC1651100F63AA6 /* MainMenu.xib */,
+				9515E9521BC1651100F63AA6 /* Info.plist */,
+				9515E94A1BC1651100F63AA6 /* Supporting Files */,
+				9515E9581BC1730200F63AA6 /* UKSoundFileRecorder.m */,
+				9515E95A1BC1730E00F63AA6 /* UKSoundFileRecorder.h */,
+				9515E95B1BC1734F00F63AA6 /* UKAudioStreamBasicDescription.h */,
+				9515E95C1BC1734F00F63AA6 /* UKAudioStreamBasicDescription.m */,
+				9515E95E1BC1739200F63AA6 /* NSString+CarbonUtilities.h */,
+				9515E95F1BC1739200F63AA6 /* NSString+CarbonUtilities.m */,
+			);
+			path = cursorhack2;
+			sourceTree = "<group>";
+		};
+		9515E94A1BC1651100F63AA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9515E94B1BC1651100F63AA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9515E9431BC1651100F63AA6 /* cursorhack2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9515E9551BC1651100F63AA6 /* Build configuration list for PBXNativeTarget "cursorhack2" */;
+			buildPhases = (
+				9515E9401BC1651100F63AA6 /* Sources */,
+				9515E9411BC1651100F63AA6 /* Frameworks */,
+				9515E9421BC1651100F63AA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cursorhack2;
+			productName = cursorhack2;
+			productReference = 9515E9441BC1651100F63AA6 /* cursorhack2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9515E93C1BC1651100F63AA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Per-Olov Jernberg";
+				TargetAttributes = {
+					9515E9431BC1651100F63AA6 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 9515E93F1BC1651100F63AA6 /* Build configuration list for PBXProject "cursorhack2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9515E93B1BC1651100F63AA6;
+			productRefGroup = 9515E9451BC1651100F63AA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9515E9431BC1651100F63AA6 /* cursorhack2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9515E9421BC1651100F63AA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9515E94E1BC1651100F63AA6 /* Assets.xcassets in Resources */,
+				9515E9511BC1651100F63AA6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9515E9401BC1651100F63AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9515E94C1BC1651100F63AA6 /* main.m in Sources */,
+				9515E9591BC1730200F63AA6 /* UKSoundFileRecorder.m in Sources */,
+				9515E95D1BC1734F00F63AA6 /* UKAudioStreamBasicDescription.m in Sources */,
+				9515E9601BC1739200F63AA6 /* NSString+CarbonUtilities.m in Sources */,
+				9515E9491BC1651100F63AA6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9515E94F1BC1651100F63AA6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9515E9501BC1651100F63AA6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9515E9531BC1651100F63AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9515E9541BC1651100F63AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9515E9561BC1651100F63AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = cursorhack2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.possan.cursorhack2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9515E9571BC1651100F63AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = cursorhack2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.possan.cursorhack2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9515E93F1BC1651100F63AA6 /* Build configuration list for PBXProject "cursorhack2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9515E9531BC1651100F63AA6 /* Debug */,
+				9515E9541BC1651100F63AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9515E9551BC1651100F63AA6 /* Build configuration list for PBXNativeTarget "cursorhack2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9515E9561BC1651100F63AA6 /* Debug */,
+				9515E9571BC1651100F63AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9515E93C1BC1651100F63AA6 /* Project object */;
+}
